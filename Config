@@ -1,0 +1,2 @@
+./configure --libdir=$HOME/irca --mandir=$HOME/irca --bindir=$HOME/irca --with-maxcon=1000
+make && make install
