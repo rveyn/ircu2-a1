@@ -141,7 +141,7 @@ TS=`date +%Y%m%d%H%M%S`
 TMPFILE="$tmp_path/linesync.$TS"
 TMPCERT="$tmp_path/cert.$TS"
 
-echo '#!/bin/bash' > "$tmp_path/git.sh"
+echo '#!/bin/sh' > "$tmp_path/git.sh"
 
 #If they specified -p, we generate the git ssh key from ircd.pem
 if [ -n "$ircdkey" ]; then
