@@ -215,9 +215,9 @@ fi
 #update the repository from upstream
 prevdir=`pwd`
 cd "$lpath"
-git reset -q --hard origin/master
+git reset -q --hard origin/main
 git fetch --tags -f --quiet
-git merge -q origin/master
+git merge -q origin/main
 if [ ! -z "$certtag" ]; then
     #Store the cert in a temp file
     git show "$certtag" > "$TMPCERT"
