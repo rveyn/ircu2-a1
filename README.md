@@ -3,5 +3,16 @@ Run ./Config
 then, edit example.conf.
 
 
-- rVn
+Copy For Linux
 
+
+tools/linesync/gitsync-nux.sh
+
+For BSD:
+
+tools/linesync/gitsync-bsd.sh
+
+to ~/irca
+
+
+- rVn
